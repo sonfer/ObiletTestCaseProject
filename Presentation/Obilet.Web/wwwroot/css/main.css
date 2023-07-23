@@ -1,0 +1,283 @@
+body {
+  background-color: #F8F8F8;
+}
+
+body * {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+section.header {
+  background-color: #2F4EB4;
+  height: 80px;
+  text-align: center;
+  color: #d3d6d8;
+    font-size: 11pt !important;
+}
+
+section.header h4 h5{
+ color: #d3d6d8;
+    
+}
+
+main.body-main {
+  padding-top: 27px;
+}
+
+aside.icon img {
+  filter: invert(66%) sepia(7%) saturate(31%) hue-rotate(22deg) brightness(93%) contrast(89%);
+}
+
+section.search-item {
+  width: 100%;
+  display: flex;
+  background-color: #FFF;
+  min-height: 64px;
+  border-radius: 2px;
+  position: relative;
+}
+
+section.search-item > aside.icon {
+  width: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 64px;
+}
+
+section.search-item > aside.icon img {
+  height: 16px;
+  margin-top: 30px;
+}
+
+section.search-item > aside.info {
+  padding-top: 11px;
+}
+
+section.search-item > aside.info > section.value {
+   color: #5D686E;
+   font-size: 15px;
+}
+
+section.search-item > aside.info > h3.title {
+  color: #2F4EB4;
+  font-size: 14px;
+  margin: 0 !important;
+}
+
+section.search-item.to {
+  margin-top: 3px;
+}
+
+section.search-item.date {
+  margin-top: 20px;
+}
+
+.transfer-icon {
+  position: absolute;
+  background-color: #FFF;
+  transition: background-color 0.2s ease-in-out;
+  right: 10px;
+  top: -16px;
+  border: 1px solid #707070;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.transfer-icon:hover {
+  background-color: whitesmoke;
+}
+
+.transfer-icon img {
+  height: 16px;
+  filter: invert(38%) sepia(85%) saturate(14%) hue-rotate(346deg) brightness(96%) contrast(82%);
+}
+
+aside.buttons {
+  width: 65px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+}
+
+aside.buttons > .button {
+  border: 1px solid #5D686E;
+  background-color: #FFF;
+  transition: background-color 0.2s ease-in-out;
+  color: #5D686E;
+  font-size: 12px;
+  border-radius: 2px;
+  width: 56px;
+  height: 24px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+aside.buttons > .button.active {
+  margin-bottom: 8px;
+  background-color: #5D686E;
+  color: #FFF;
+}
+
+aside.buttons > .button:hover {
+  background-color: whitesmoke;
+}
+
+aside.buttons > .button.active:hover {
+  background-color: #717a7f;
+}
+
+section.search-item.date .info {
+  width: 80%;
+}
+
+section.search-button-section {
+  margin-top: 21px;
+  display: flex;
+  justify-content: center;
+}
+
+section.search-button-section > .search-button {
+  width: 208px;
+  height: 41px;
+  background-color: #2F4EB4;
+  color: #FFF;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+section.search-button-section > .search-button:hover {
+  background-color: #536dc1;
+}
+
+section.footer {
+  background-color: #FFF;
+  color: #5D686E;
+  font-size: 12px;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.search-box-inner {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.Zebra_DatePicker_Icon {
+  visibility: hidden !important;
+}
+
+input#datepicker {
+  border: none !important;
+  outline: 0 !important;
+}
+
+.journey-list {
+    margin: 5% 5%;
+}
+.journey-list .journey-item {
+    background: #ededed;
+    background: linear-gradient(#ededed, #fff, #ededed);
+    border: 1px solid;
+    margin-bottom: 1rem;
+    padding: 2px 7px 7px 5px;
+}
+.journey-list .journey-item .header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.journey-list .journey-item .header-box .time-info {
+    display: flex;
+    align-items: center;
+}
+.journey-list .journey-item .header-box .time-info .icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.journey-list .journey-item .header-box .time-info .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.journey-list .journey-item .header-box .time-info .time .title {
+    font-size: 9pt;
+    color: #3640B1;
+}
+.journey-list .journey-item .header-box .time-info .time .info {
+    font-size: 11pt;
+    color: #3640B1;
+    font-weight: 700;
+}
+.journey-list .journey-item .header-box .price .label {
+    background-color: #D23B38;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 14pt;
+}
+.journey-list .journey-item .content-box {
+    font-size: 12pt;
+    color: #083145;
+}
+.journey-list .journey-item .content-box .icon {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+@media screen and (min-width: 1200px) {
+  section.search-item {
+    width: 30%;
+  }
+
+  section.search-item.to {
+    margin-left: 10px;
+    margin-top: 0;
+  }
+
+  section.search-item.date {
+    margin-left: 10px;
+    margin-top: 0;
+  }
+
+  .transfer-icon {
+    right: auto;
+    left: -24px;
+    top: 20px;
+    transform: rotate(90deg);
+  }
+
+  section.search-button-section {
+    width: 100%;
+  }
+  
+  
+}

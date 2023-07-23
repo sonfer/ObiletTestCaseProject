@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xbr6e3VrjamXbJ47dXjNjck0G3m+d1lR968ySkGdEmuJT4DUZRyfTVU+TydQRu/yUsrWhQYGFuyIChdzjFt1ng==",
+  "success": true,
+  "projectFilePath": "/Users/sonferder/obilet/ObiletTestCaseProject/Data/Obilet.Data/Obilet.Data.csproj",
+  "expectedPackageFiles": [
+    "/Users/sonferder/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

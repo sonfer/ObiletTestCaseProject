@@ -1,0 +1,17 @@
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/bin/Debug/net6.0/Obilet.Persistence.deps.json
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/bin/Debug/net6.0/Obilet.Persistence.dll
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/bin/Debug/net6.0/Obilet.Persistence.pdb
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/bin/Debug/net6.0/Obilet.Application.dll
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/bin/Debug/net6.0/Obilet.Shared.dll
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/bin/Debug/net6.0/Obilet.Application.pdb
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/bin/Debug/net6.0/Obilet.Shared.pdb
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/obj/Debug/net6.0/Obilet.Persistence.csproj.AssemblyReference.cache
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/obj/Debug/net6.0/Obilet.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/obj/Debug/net6.0/Obilet.Persistence.AssemblyInfoInputs.cache
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/obj/Debug/net6.0/Obilet.Persistence.AssemblyInfo.cs
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/obj/Debug/net6.0/Obilet.Persistence.csproj.CoreCompileInputs.cache
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/obj/Debug/net6.0/Obilet.Persistence.csproj.CopyComplete
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/obj/Debug/net6.0/Obilet.Persistence.dll
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/obj/Debug/net6.0/refint/Obilet.Persistence.dll
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/obj/Debug/net6.0/Obilet.Persistence.pdb
+/Users/sonferder/obilet/ObiletTestCaseProject/Services/Obilet.Persistence/obj/Debug/net6.0/ref/Obilet.Persistence.dll

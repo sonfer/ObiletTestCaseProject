@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{0716C63B-89E1-4E80-8DA1-C17C47C8BECB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{17FFFC85-0621-401D-A86A-38A2609F80DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obilet.Web", "Presentation\Obilet.Web\Obilet.Web.csproj", "{78B40213-34A7-442C-9D74-BD92AC2C3115}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{F5AF8516-F65A-42CE-B096-4C36CB5E7009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obilet.Shared", "Shared\Obilet.Shared\Obilet.Shared.csproj", "{F0B74B3C-BDE9-48D5-8BD4-163DE7286E5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obilet.Service", "Services\Obilet.Service\Obilet.Service.csproj", "{DA4D1BD2-CFB3-4881-BC0D-C91C8F5CAE62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{7AED1274-CCBD-4EE4-B88C-37D5F158AABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obilet.Data", "Data\Obilet.Data\Obilet.Data.csproj", "{6E6C939B-FE33-40AC-B628-60D9771450E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78B40213-34A7-442C-9D74-BD92AC2C3115} = {0716C63B-89E1-4E80-8DA1-C17C47C8BECB}
+		{F0B74B3C-BDE9-48D5-8BD4-163DE7286E5F} = {F5AF8516-F65A-42CE-B096-4C36CB5E7009}
+		{DA4D1BD2-CFB3-4881-BC0D-C91C8F5CAE62} = {17FFFC85-0621-401D-A86A-38A2609F80DF}
+		{6E6C939B-FE33-40AC-B628-60D9771450E6} = {7AED1274-CCBD-4EE4-B88C-37D5F158AABB}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78B40213-34A7-442C-9D74-BD92AC2C3115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B40213-34A7-442C-9D74-BD92AC2C3115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B40213-34A7-442C-9D74-BD92AC2C3115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B40213-34A7-442C-9D74-BD92AC2C3115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B74B3C-BDE9-48D5-8BD4-163DE7286E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B74B3C-BDE9-48D5-8BD4-163DE7286E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B74B3C-BDE9-48D5-8BD4-163DE7286E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B74B3C-BDE9-48D5-8BD4-163DE7286E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4D1BD2-CFB3-4881-BC0D-C91C8F5CAE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4D1BD2-CFB3-4881-BC0D-C91C8F5CAE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4D1BD2-CFB3-4881-BC0D-C91C8F5CAE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4D1BD2-CFB3-4881-BC0D-C91C8F5CAE62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6C939B-FE33-40AC-B628-60D9771450E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6C939B-FE33-40AC-B628-60D9771450E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6C939B-FE33-40AC-B628-60D9771450E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6C939B-FE33-40AC-B628-60D9771450E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,89 @@
+﻿@model SearchJourneyViewModel
+@{
+    ViewData["Title"] = "Obilet";
+}
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <div class="col-12">
+        <section class="search-box">
+            <div class="row">
+                <div class="col-12">
+                    <div class="search-box-inner d-xl-flex">
+                        <section class="search-item from">
+                            <aside class="icon">
+                                <img alt="location from icon"
+                                     src="img/location-icon.svg"/>
+                            </aside>
+                            <aside class="info">
+                                <h3 class="title">Nereden</h3>
+                                <section class="value">
+                                    @Html.TextBoxFor(d => d.Departure, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(m => m.Departure)
+                                </section>
+
+                            </aside>
+                        </section>
+                        <section class="search-item to">
+                            <div class="transfer-icon" onclick="transfer()">
+                                <img src="img/transfer-icon.svg"/>
+                            </div>
+                            <aside class="icon">
+                                <img alt="location to icon"
+                                     src="img/location-icon-dotted.svg"/>
+                            </aside>
+                            <aside class="info">
+                                <h3 class="title">Nereye</h3>
+                                <section class="value">
+                                    @Html.TextBoxFor(d => d.Arrival, new { @class = "form-control" })
+                                     @Html.ValidationMessageFor(m => m.Arrival)
+                                </section>
+                            </aside>
+                        </section>
+                        <section class="search-item date">
+                            <aside class="icon">
+                                <img alt="location from icon"
+                                     src="img/calendar.svg"/>
+                            </aside>
+                            <aside class="info">
+                                <h3 class="title">Tarih</h3>
+                                <section class="value">
+                                    @Html.TextBoxFor(d=> d.JourneyDate)
+                                </section>
+                            </aside>
+                            <aside class="buttons">
+                                <a class="button active" onclick="setDateToday()">
+                                    Bugün
+                                </a>
+                                <a class="button" onclick="setDateTomorrow()">
+                                    Yarın
+                                </a>
+                            </aside>
+                        </section>
+                        <div class="break"></div>
+                        <section class="search-button-section">
+                            <button class="search-button" type="submit">
+                                Bileti Bul
+                            </button>
+                            
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+}
+
+<script>
+function transfer(){
+   var departure= $("#Departure").val();
+   var arrival= $("#Arrival").val();
+   
+   $("#Departure").val(arrival);
+   $("#Arrival").val(departure);
+   
+   
+}
+    
+</script>

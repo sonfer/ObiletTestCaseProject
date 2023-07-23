@@ -1,0 +1,12 @@
+/Users/sonferder/obilet/ObiletTestCaseProject/Data/Obilet.Data/bin/Debug/net6.0/Obilet.Data.deps.json
+/Users/sonferder/obilet/ObiletTestCaseProject/Data/Obilet.Data/bin/Debug/net6.0/Obilet.Data.dll
+/Users/sonferder/obilet/ObiletTestCaseProject/Data/Obilet.Data/bin/Debug/net6.0/Obilet.Data.pdb
+/Users/sonferder/obilet/ObiletTestCaseProject/Data/Obilet.Data/obj/Debug/net6.0/Obilet.Data.csproj.AssemblyReference.cache
+/Users/sonferder/obilet/ObiletTestCaseProject/Data/Obilet.Data/obj/Debug/net6.0/Obilet.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sonferder/obilet/ObiletTestCaseProject/Data/Obilet.Data/obj/Debug/net6.0/Obilet.Data.AssemblyInfoInputs.cache
+/Users/sonferder/obilet/ObiletTestCaseProject/Data/Obilet.Data/obj/Debug/net6.0/Obilet.Data.AssemblyInfo.cs
+/Users/sonferder/obilet/ObiletTestCaseProject/Data/Obilet.Data/obj/Debug/net6.0/Obilet.Data.csproj.CoreCompileInputs.cache
+/Users/sonferder/obilet/ObiletTestCaseProject/Data/Obilet.Data/obj/Debug/net6.0/Obilet.Data.dll
+/Users/sonferder/obilet/ObiletTestCaseProject/Data/Obilet.Data/obj/Debug/net6.0/refint/Obilet.Data.dll
+/Users/sonferder/obilet/ObiletTestCaseProject/Data/Obilet.Data/obj/Debug/net6.0/Obilet.Data.pdb
+/Users/sonferder/obilet/ObiletTestCaseProject/Data/Obilet.Data/obj/Debug/net6.0/ref/Obilet.Data.dll

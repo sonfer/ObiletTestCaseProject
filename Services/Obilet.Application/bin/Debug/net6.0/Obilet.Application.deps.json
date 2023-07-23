@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Obilet.Application/1.0.0": {
+        "dependencies": {
+          "Obilet.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Obilet.Application.dll": {}
+        }
+      },
+      "Obilet.Shared/1.0.0": {
+        "runtime": {
+          "Obilet.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Obilet.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Obilet.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

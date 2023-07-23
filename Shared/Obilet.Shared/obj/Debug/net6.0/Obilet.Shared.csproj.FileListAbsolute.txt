@@ -1,0 +1,12 @@
+/Users/sonferder/obilet/ObiletTestCaseProject/Shared/Obilet.Shared/bin/Debug/net6.0/Obilet.Shared.deps.json
+/Users/sonferder/obilet/ObiletTestCaseProject/Shared/Obilet.Shared/bin/Debug/net6.0/Obilet.Shared.dll
+/Users/sonferder/obilet/ObiletTestCaseProject/Shared/Obilet.Shared/bin/Debug/net6.0/Obilet.Shared.pdb
+/Users/sonferder/obilet/ObiletTestCaseProject/Shared/Obilet.Shared/obj/Debug/net6.0/Obilet.Shared.csproj.AssemblyReference.cache
+/Users/sonferder/obilet/ObiletTestCaseProject/Shared/Obilet.Shared/obj/Debug/net6.0/Obilet.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sonferder/obilet/ObiletTestCaseProject/Shared/Obilet.Shared/obj/Debug/net6.0/Obilet.Shared.AssemblyInfoInputs.cache
+/Users/sonferder/obilet/ObiletTestCaseProject/Shared/Obilet.Shared/obj/Debug/net6.0/Obilet.Shared.AssemblyInfo.cs
+/Users/sonferder/obilet/ObiletTestCaseProject/Shared/Obilet.Shared/obj/Debug/net6.0/Obilet.Shared.csproj.CoreCompileInputs.cache
+/Users/sonferder/obilet/ObiletTestCaseProject/Shared/Obilet.Shared/obj/Debug/net6.0/Obilet.Shared.dll
+/Users/sonferder/obilet/ObiletTestCaseProject/Shared/Obilet.Shared/obj/Debug/net6.0/refint/Obilet.Shared.dll
+/Users/sonferder/obilet/ObiletTestCaseProject/Shared/Obilet.Shared/obj/Debug/net6.0/Obilet.Shared.pdb
+/Users/sonferder/obilet/ObiletTestCaseProject/Shared/Obilet.Shared/obj/Debug/net6.0/ref/Obilet.Shared.dll

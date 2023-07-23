@@ -1,0 +1,52 @@
+﻿@using System.Globalization
+@model List<Obilet.Data.Requestes.GetJourneysResponse>
+@{
+    ViewData["Title"] = "Obilet";
+}
+
+
+<div class="col-12">
+    <section class="search-box">
+        <div class="row">
+            <div class="col-12">
+                <div class="search-box-inner d-xl-flex">
+                    @if (Model.Any())
+                    {
+                        foreach (var journey in Model)
+                        {
+                            <div class="journey-list">
+                                <div class="journey-item">
+                                    <div class="header-box">
+                                        <div class="time-info">
+                                            <div class="time">
+                                                <span class="title">KALKIŞ</span>
+                                                <span class="info">@journey.Journey.Departure.ToString("HH:mm")</span>
+                                            </div>
+                                             <img alt="location from icon" height="24" width="24"
+                                                                                 src="img/arrow-right.svg"/>
+                                            <div class="time">
+                                                <span class="title">VARIŞ</span>
+                                                <span class="info">@journey.Journey.Arrival.ToString("HH:mm")</span>
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <div class="label">
+                                                @journey.Journey.InternetPrice.ToString("C2", new CultureInfo("tr-TR"))
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content-box">
+                                        <span>@journey.Journey.Origin</span>
+                                        @* <FontAwesomeIcon class="icon" icon={faArrowRightLong}/> *@
+                                        <span>@journey.Journey.Destination</span>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
